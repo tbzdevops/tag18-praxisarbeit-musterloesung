@@ -7,7 +7,7 @@ users:
     home: /home/ubuntu
     shell: /bin/bash
     ssh_authorized_keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCUBo+qnNu5xxM9vfz4C04M36FHxHNrEMdm5TkFj1/SfVtqunlUOeMpu7nFCZZKnX8HYwf/MkjcBiTYAgncxku8grwl6XuW/pcvmb6/ghSIaw4xtRRSzit7omqJ5d8kXB3+Nd1aaMHsjfly4nkaqswhySVXQqr8Hw6DbWVw8jLLVKEE+5NZHY33hJkhJwK4blCllsGpmQaKi1qxjsN0hZOWNK01iJAydwD8t2xJ0NOYbq8Qas5IyPnRN7SPxvEhIP6WLQ6Ym6Dmf8FwNW1cHLTKabgjzt5f/HKUkKS89dPd3fn4nnFli1BOMECGUIvVlOw2pQNri7+04OOfn2FGlqr5 teacher
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDXh9lICWqv0xmJb6+HDqk8TG/KeAajklBylQK2ftXWY3sjElPBBHONuIxLLc7xlpzXkMl64ebSu/hw698fQtB2z6DNKDRXJo4HyRl00qjtUkmCiajyBDcALlEQv2zxTxlzZJB1ecgton9nacC7Lt3BOCAzegpkv4jnafXfEU4wV/xNyyORYb4LyHjBsro5PtSvuNPJlMR9ROFknl/vo1yEQiNznUMttc2nkXXvS9iVJCm3vWIZr19fhmvfWvoyDIKcku2uegbi8dtKc7+L99kexNGqwhnTMDQqN45Q2jn8msXUPKNUGQvavw6fT5NRmyk5+dNrlKS7hM1FT58GkAa5
       - # fügen Sie Ihren Schlüssel hinzu!
 groups:
   - microk8s
