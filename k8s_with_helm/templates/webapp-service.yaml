@@ -1,0 +1,17 @@
+{{- if .Values.webapp.enabled }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapp-service
+spec:
+  type: {{ .Values.webapp.service.type }}
+  selector:
+    app: webapp
+  ports:
+    - protocol: TCP
+      port: {{ .Values.webapp.service.port }}
+      targetPort: {{ .Values.webapp.containerPort }}
+      {{- if eq .Values.webapp.service.type "NodePort" }}
+      nodePort: {{ .Values.webapp.service.nodePort }}
+      {{- end }}
+{{- end }}

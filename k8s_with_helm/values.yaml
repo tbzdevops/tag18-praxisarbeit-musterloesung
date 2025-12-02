@@ -1,0 +1,18 @@
+mongo:
+  enabled: true
+  image: mongo:6
+  replicas: 1
+  port: 27017
+  rootUser: mongouser
+  rootPassword: mongopassword
+  serviceName: mongo-service
+
+webapp:
+  enabled: true
+  image: nanajanashia/k8s-demo-app:v1.0
+  replicas: 1
+  containerPort: 3000
+  service:
+    type: NodePort
+    port: 3000
+    nodePort: 30100

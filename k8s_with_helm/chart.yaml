@@ -1,0 +1,6 @@
+apiVersion: v2
+name: demo-app
+description: A demo app with MongoDB and Webapp for teaching Kubernetes & Helm
+type: application
+version: 0.1.0        # Chart-Version
+appVersion: "1.0.0"   # App-Version (frei wählbar)
