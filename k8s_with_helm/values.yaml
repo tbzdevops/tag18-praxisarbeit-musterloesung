@@ -10,7 +10,7 @@ mongo:
 webapp:
   enabled: true
   image: nanajanashia/k8s-demo-app:v1.0
-  replicas: 1
+  replicas: 3
   containerPort: 3000
   service:
     type: NodePort
